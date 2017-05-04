@@ -5,6 +5,7 @@ function [ s,flag] = setupSerial(comPort)
 %  serialInfo = instrhwinfo('serial')  % and this one to check the number of the com port 
 
 
+
 flag = 1;
 s = serial(comPort);
 set(s,'DataBits',8);
